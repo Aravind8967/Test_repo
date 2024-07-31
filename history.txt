@@ -1,0 +1,103 @@
+    1  ls
+    2  cd D:\web_design\test
+    3  cd 
+    4  ls -lrt
+    5  cd
+    6  ls -lrt
+    7  cd d:/
+    8  ls -lrt
+    9  cd web_design/
+   10  ls -lrt
+   11  cd test
+   12  mkdir repo
+   13  ls -lrt
+   14  git -v
+   15  cd test_git
+   16  git status
+   17  git add .
+   18  git commit .
+   19  git config --global user.email "aru9593441@gmail.com"
+   20  git config --global user.name "Aravind8967"
+   21  ssh-keygen -t ed25519 -C "aru9593441@gmail.com"
+   22  ssh-keygen -t ed25519 -C "aru9593441@gmail.com"
+   23  ls -lrta
+   24  cd .
+   25  ls -lrta
+   26  cd /c/Users/Aravind/.ssh/
+   27  ls -lrt
+   28  clip < ~/.ssh/id_ed25519.pub
+   29  ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGG+Dk6BWciW+0hN/3CtUk4GbfAA2klr1TntUsGC4/5g aru9593441@gmail.com
+   30  cd -
+   31  ls -lrt
+   32  clip < ~/.ssh/id_ed25519.pub
+   33  git remote -v
+   34  git remote add origin git@github.com:Aravind8967/Test_repo.git
+   35  git branch
+   36  git push origin master
+   37  git remote -v
+   38  git push origin masterls -al ~/.ssh
+   39  ls -al ~/.ssh
+   40  cat ~/.ssh/id_rsa.pub
+   41  cat ~/.ssh/id_ed25519.pub
+   42  ssh -T git@github.com
+   43  git remote -v
+   44  git push -u origin master 
+   45  git branch -m master main
+   46  git push -u origin main
+   47  rm -rf file1.txt
+   48  ls -lrt
+   49  echo "this is test file." > test.txt
+   50  vi test.txt
+   51  cat test.txt 
+   52  echo "this is test file2." > test2.txt
+   53  mv test.txt test1.txt
+   54  git status
+   55  git add test1.txt test2.txt
+   56  git status
+   57  git commit
+   58  git remote -v
+   59  git remove origin
+   60  git --help
+   61  git branch
+   62  cp test1.txt test3.txt
+   63  cat test3.txt
+   64  echo "copied by file1" >> test3.txt
+   65  cat test3.txt 
+   66  git add test3.txt test4.txt 
+   67  git status
+   68  git commit -m "2 files added"
+   69  git status
+   70  git branch -m main master
+   71  git branch
+   72  git status
+   73  git rm file1.txt 
+   74  git status
+   75  git restore file1.txt
+   76  git commit -m "file1 deleted"
+   77  git status
+   78  git rm test4.txt
+   79  git status
+   80  git restore --staged test4.txt
+   81  ls -lrt
+   82  git status
+   83  git restore test4.txt
+   84  git status
+   85  git status
+   86  git checkout head
+   87  git log
+   88  ls -lrt
+   89  git status
+   90  git branch
+   91  git branch -m master main
+   92  git branch
+   93  ssh-keygen -t ra -C "aru9593441@gmail.com"
+   94  ssh-keygen -t ed25519 -C "aru9593441@gmail.com"
+   95  git add .gitignore 
+   96  git commit "id added"
+   97  git commit -m "id added"
+   98  git status
+   99  cat id_ra.pub 
+  100  git remote -v
+  101  clip id_ra.pub
+  102  clip /id_ra.pub
+  103  history > history.txt
